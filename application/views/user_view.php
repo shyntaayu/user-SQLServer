@@ -153,7 +153,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         show_user(); //call function show all user
-          
+        $('#mydata').DataTable();
         //function show all user
         function show_user(){
             $.ajax({
@@ -262,7 +262,6 @@
             return false;
         });
 
-        $('#mydata').DataTable();
  
     });
  
