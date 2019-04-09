@@ -157,7 +157,7 @@
         //function show all user
         function show_user(){
             $.ajax({
-                type  : 'ajax',
+                type  : 'GET',
                 url   : '<?php echo site_url('user/user_data')?>',
                 async : true,
                 dataType : 'json',
